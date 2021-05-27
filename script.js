@@ -30,7 +30,7 @@ function fetchData(category){
 }
 
 let weather=(l)=>{
-    fetch('http://api.openweathermap.org/data/2.5/weather?q='+l+'&appid=4cf7425d4bed8f5e5e9a5708c35b66d3')
+    fetch('https://api.openweathermap.org/data/2.5/weather?q='+l+'&appid=4cf7425d4bed8f5e5e9a5708c35b66d3')
     .then(res=>res.json())
     .then(data=>{
           
