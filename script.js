@@ -1,6 +1,6 @@
 
 function fetchData(category){
-
+/// 
     fetch(category)
     .then(res=>res.json())
     .then(data=>{
